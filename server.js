@@ -2,7 +2,9 @@
 import express from "express";
 import productRouter from "./src/features/product/product.routes.js";
 import userRouter from './src/features/user/user.routes.js';
+
 import jwtAuth from "./src/middilewares/jwt.middileware.js";
+import cartRouter from './src/features/cart/cart.routes.js';
 import  bodyParser from 'body-parser';
 
 // 2. Create Server
@@ -12,6 +14,7 @@ server.use(express.json());
  
 //for all request of producr redirect to product route
 server.use("/api/products",jwtAuth, productRouter);
+server.use("/api/cartItems", jwtAuth,cartRouter);
 server.use("/api/users", userRouter);
 // 3. Default request handler
 server.get("/", (req, res) => {

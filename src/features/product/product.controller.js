@@ -1,3 +1,4 @@
+import UserModel from "../user/user.model.js";
 import ProductModel from "./product.model.js";
 
 export default class ProductController {
@@ -18,7 +19,19 @@ export default class ProductController {
     res.status(201).send(createdRecord);
   }
 
-  rateProduct(req, res) {}
+  rateProduct(req, res) {
+   const userID= req.query.userID;
+   const productID=req.query.productID;
+   const rating=req.query.rating;
+   const error = ProductModel.rateProduct(userID,productID,rating);
+   if(error){
+    return res.status(401).send(error);
+   }else{
+    return res.status(200).send("rating is added");
+   }
+
+
+  }
 
   getoneproduct(req, res) {
     const id = req.params.id;

@@ -10,7 +10,7 @@ export default class UserController {
   signIn(req, res) {
   const result=  UserModel.SignIn(req.body.email, req.body.password);
   if(!result){
-    return res.status(404).send("incorrect credential");
+    return res.status(400).send("incorrect credential");
 
   }else{
     //create token

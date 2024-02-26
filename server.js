@@ -12,6 +12,7 @@ import apidocs from './swagger.json' assert {type:'json'};
 import loggerMiddileware from './src/middilewares/logger.middileware.js';
 import { ApplicationError } from "./src/error-handler/applicationError.js";
 
+
 // 2. Create Server
 const server = express();
 server.use(bodyParser.json());
@@ -40,6 +41,12 @@ server.use((req,res)=>{
   res.status(404).send("API not found");
 
 });
+
+
+const query = "SELECT * FROM your_table";
+
+// Execute the query
+
 
 // 4. Specify port.
 server.listen(3200, () => {

@@ -31,6 +31,23 @@
       }
     },
 
+    "/api/products/:id": {
+      "get": {
+        "tags": ["Products"],
+        "summary": "Get One Products",
+        "description": "User will get one products",
+        "security": [{ "JWT": {} }],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "404": {
+            "description": "product not found"
+          }
+        }
+      }
+    },
+
     "/api/users/sign-in": {
       "post": {
         "tags": ["Users"],

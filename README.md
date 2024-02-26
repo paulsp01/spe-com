@@ -84,7 +84,19 @@ Cart:
 path:api/cartItems/:id
 
 
+![Screenshot (145)](https://github.com/paulsp01/spe-com/assets/136374929/c006755d-cbd6-4e83-9948-2b61f0f98b3d)
 
+![Screenshot (146)](https://github.com/paulsp01/spe-com/assets/136374929/21d1d3d4-0bfc-4e1d-b051-40aa66046ab1)
 
+![Screenshot (141)](https://github.com/paulsp01/spe-com/assets/136374929/db4758bf-7fc9-4999-960a-c86308d563e9)
 
+![Screenshot (141)](https://github.com/paulsp01/spe-com/assets/136374929/6db4b4f5-8c54-45d3-874b-943e3cd47bd9)
+![Screenshot (148)](https://github.com/paulsp01/spe-com/assets/136374929/98207306-27fd-4c9e-9605-deacd75e7b2d)
+![Screenshot (149)](https://github.com/paulsp01/spe-com/assets/136374929/10862557-38d9-4b9c-9dda-26c4c31a98f4)
+![Screenshot (150)](https://github.com/paulsp01/spe-com/assets/136374929/858ae96b-c194-409c-a722-a2168b9b11d0)
+![Screenshot (151)](https://github.com/paulsp01/spe-com/assets/136374929/fb9a4a34-6eee-49a2-bf37-d00d87a6bb87)
 
+![Screenshot (143)](https://github.com/paulsp01/spe-com/assets/136374929/f8b8b9ce-89c8-4fd3-8eb8-ada1121d96f1)
+![Screenshot (144)](https://github.com/paulsp01/spe-com/assets/136374929/544867f6-27bb-4a2a-9539-0a3c38dbbaf8)
+![Screenshot (147)](https://github.com/paulsp01/spe-com/assets/136374929/d905a774-729f-43b6-b453-4ba5872a6c1c)
+![Screenshot (152)](https://github.com/paulsp01/spe-com/assets/136374929/de69568b-d396-4010-9277-c7461826f271)

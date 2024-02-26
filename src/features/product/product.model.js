@@ -40,11 +40,11 @@ export default class ProductModel {
   static rateProduct(userID,productID,rating){
    const user=UserModel.getAll().find((u)=>u.id==userID);
    if(!user){
-    return 'user not found';
+    throw new ApplicationError("user not found",404);
    }
    const product=products.find((p)=>p.id==productID);
    if(!product){
-    return 'product is not found';
+    throw new ApplicationError("product is not found",400);
    }
    if(!product.ratings){
    product.ratings=[];

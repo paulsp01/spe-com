@@ -1,4 +1,8 @@
 # spe-com
+
+This project is an eCommerce API built with Node.js, Express.js. It provides endpoints for managing products, users, and shopping carts, along with JWT authentication for secure access. The API allows users to view and search for products, add items to their shopping carts. Users can create accounts, log in, and update their profiles. JWT authentication is implemented to ensure secure access to protected routes, allowing users to authenticate and access their own data securely. The API follows RESTful principles and utilizes middleware for handling requests, input validation, and error handling.  This project aims to provide a robust and scalable backend solution for eCommerce applications, with features for managing products, users and cart securely.
+
+
 Doc Design for E-com API
 localhost:3200
 POST:
